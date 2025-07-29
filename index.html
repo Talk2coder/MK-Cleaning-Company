@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MK Cleaner Company</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-scnd.css">
+  <link rel="stylesheet" href="./css/mediaQuery.css">
+  <script defer src="./script/script.js"></script>
+</head>
+
+<body id="site">
+  <!-------------------------- Header section -------------------------->
+  <main class="main__container">
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="./images/cleaning-service-logo-.png" alt="cleaning-service-logo-.png" class="header__img">
+      </a>
+      <ul class="header__navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li>
+          <a href="./services.html">Services</a>
+          <div class="header__dropdown">
+            <a href="./deep-cleaning.html">Deep Cleaning</a>
+            <a href="./furniture-cleaning.html">Furniture Cleaning</a>
+            <a href="./window-cleaning.html">Window Cleaning</a>
+            <a href="./inout-cleaning.html">Move In/Move Out</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="./login.html" class="header__user"><span>Log In</span>
+            <i class="fa fa-user user__icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="header__menu"><i class="fa fa-bars"></i></div>
+    </header>
+    <a href="./index.html#site" class="scroll__btn"><i class="fa-solid fa-angle-up"></i></a>
+    <!---------------------- Home heading  and form section --------------->
+    <section class="hero__container">
+      <div class="heading__container">
+        <h2 class="heading">
+          Effortless <code>Clean.</code><span><code>Exceptional</code> Results.</span>
+        </h2>
+        <p class="heading__paragraph">
+          Delivering pristine cleaning solutions for the busy <span>lifestyle since 2024. professional and always with a smile.</span>
+          <!-- Providing spotless cleaning services for busy <span>people since 2035. Always on time, always smiling.</span> -->
+        </p>
+        <a href="./booknow.html" class="heading__link">Book Now</a>
+      </div>
+      <section class="estimate__container">
+        <form action="" class="estimate__form">
+          <div class="estimate__heading">
+            <h3 class="estimate__title">Get a Free Estimate</h3>
+            <p class="estimate__subtitle">Contact us</p>
+          </div>
+          <aside class="estimate__contents">
+            <div class="estimate__group">
+              <label for="fistname">First Name <span>*</span></label>
+              <input type="text">
+            </div>
+            <div class="estimate__group">
+              <label for="lastname">Last Name <span>*</span></label>
+              <input type="text">
+            </div>
+            <div class="estimate__group">
+              <label for="email">Email <span>*</span></label>
+              <input type="email">
+            </div>
+            <div class="estimate__group">
+              <label for="Phone Number">Phone Number <span>*</span></label>
+              <input type="tel">
+            </div>
+            <div class="estimate__group">
+              <label for="Address">Address <span>*</span></label>
+              <input type="text">
+            </div>
+            <div class="estimate__group">
+              <label for="City">City <span>*</span></label>
+              <input type="text">
+            </div>
+            <div class="estimate__group">
+              <label for="Numberofrooms">Number of rooms <span>*</span></label>
+              <select name="" id="Numberofrooms">
+                <option value="2 bedroom">2 bedroom</option>
+                <option value="3 bedroom">3 bedroom</option>
+                <option value="4 bedroom">4 bedroom</option>
+              </select>
+            </div>
+            <div class="estimate__group wide">
+              <label for="Numberofrooms">Choose your service <span>*</span></label>
+              <select name="" id="Numberofrooms">
+                <option value="2 bedroom">Deep Cleaning</option>
+                <option value="3 bedroom">Laundry</option>
+                <option value="4 bedroom">Moving in/out</option>
+              </select>
+            </div>
+          </aside>
+          <div class="estimate__link">
+            <a href="#">Get a Quote</a>
+          </div>
+        </form>
+      </section>
+    </section>
+    <!------------------------------Client Section--------------------------- -->
+    <section class="client">
+      <h1 class="client__heading">Shiny Happy Clients</h1>
+      <div class="client__container">
+        <div class="client__wrapper">
+          <div class="client__star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3 class="client__sub-heading">“I’m addicted to the Cleanic!”</h3>
+          <p class="client__paragraph">“I’m addicted to the Cleanic! Their exceptional service, attention to detail, and reliability make my space shine every time!”</p>
+          <h3 class="client__title">Blessing</h3>
+        </div>
+
+        <div class="client__wrapper">
+          <div class="client__star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3 class="client__sub-heading">
+            “My flat looks like a boutique hotel”</h3>
+          <p class="client__paragraph">“The cleaning service transformed it into a luxurious,
+             spotless, and stylish space. Highly recommend!”</p>
+          <h3 class="client__title">Veronica</h3>
+        </div>
+
+        <div class="client__wrapper">
+          <div class="client__star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3 class="client__sub-heading">
+            “I’m obsessed”</h3>
+          <p class="client__paragraph">“The service exceeded my expectations.
+             Attention to detail and professionalism were top-notch. Highly recommend!”</p>
+          <h3 class="client__title">Faith</h3>
+        </div>
+
+        <div class="client__wrapper">
+          <div class="client__star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3 class="client__sub-heading">
+            “Soft perfection”</h3>
+          <p class="client__paragraph">“The quality, attention to detail,
+             and results are absolutely flawless. Highly recommend!”</p>
+          <h3 class="client__title">Grace</h3>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- Cleaning section -------------------------->
+    <section class="laundry__container">
+      <div class="laundry__write-up">
+        <h1 class="laundry__heading">For Anything You Need</h1>
+        <p class="laundry__paragraph">Our stellar services</p>
+      </div>
+      <div class="laundry__img-container">
+        <div class="img__house-clean">
+          <img src="./images/house-clean.jpg" alt="" class="laundry__img">
+          <h3 class="house__text">Move In/Move Out</h3>
+        </div>
+        <div class="img__towel-clean">
+          <img src="./images/towel-clean.jpg" alt="" class="laundry__img">
+          <h3 class="towel__text">Laundry</h3>
+        </div>
+        <div class="img__door-clean">
+          <img src="./images/door-clean.jpg" alt="" class="laundry__img">
+          <h3 class="door__text">Deep Cleaning</h3>
+        </div>
+      </div>
+      <a href="./services.html" class="laundry__all-services">See All Services </a>
+    </section>
+    <!---------------------------------- Choose us section ------------------------------>
+    <section class="choose__us">
+      <div class="choose__container">
+        <div class="choose__wrapper">
+          <img src="./images/hand-clean.jpg" alt="" class="choose-img">
+        </div>
+        <div class="choose__right-container">
+          <h1 class="choose__heading">Why Choose The Cleanic</h1>
+          <div class="choose__details">
+            <div class="team__wrapper">
+              <div class="team__write-up">
+                <i class="fa-sharp fa-solid fa-circle-dot"></i>
+                <h1 class="team__heading">Qualified Team</h1>
+              </div>
+              <p class="team__paragraph">Choose us for our qualified team, ensuring expert care and exceptional cleaning services.</p>
+              <div class="team__write-up">
+                <i class="fa-sharp fa-solid fa-circle-dot"></i>
+                <h1 class="team__heading">Same Day Availability</h1>
+              </div>
+              <p class="team__paragraph">Choose us for Same Day Availability – fast, reliable service when you need it most!</p>
+            </div>
+            <div class="team__wrapper">
+              <div class="team__write-up">
+                <i class="fa-sharp fa-solid fa-circle-dot"></i>
+                <h1 class="team__heading">Outstanding Support</h1>
+              </div>
+              <p class="team__paragraph">Experience unparalleled service with our dedicated team, ready to assist you 24/7!</p>
+
+              <div class="team__write-up">
+                <i class="fa-sharp fa-solid fa-circle-dot"></i>
+                <h1 class="team__heading">Eco-Friendly Materials</h1>
+              </div>
+              <p class="team__paragraph">Choose us for our eco-friendly cleaning materials, ensuring safety for you and the planet.</p>
+            </div>
+          </div>
+          <a href="./about.html" class="know__us-btn">Get To Know Us</a>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------- How it works section -------------------------->
+    <section class="work__container">
+      <div class="work__heading">How It Works</div>
+      <div class="work__icons">
+        <div class="wrap">
+          <i class="fa-sharp-duotone fa-solid fa-droplet"></i>
+          <p class="wrap__text">Choose your desired cleaning service</p>
+        </div>
+        <i class="fa-sharp-duotone fa-solid fa-arrow-right-long arrow-icon"></i>
+        <div class="wrap">
+          <i class="fa-sharp fa-solid fa-shirt"></i>
+          <p class="wrap__text">Use the Cleanic App for laundry pickup</p>
+        </div>
+        <i class="fa-sharp-duotone fa-solid fa-arrow-right-long arrow-icon"></i>
+        <div class="wrap">
+          <i class="fa-sharp fa-solid fa-key"></i>
+          <p class="wrap__text">Leave us the keys and we'll take care of the rest</p>
+        </div>
+        <i class="fa-sharp-duotone fa-solid fa-arrow-right-long arrow-icon"></i>
+        <div class="wrap">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          <p class="wrap__text">Welcome back to your clean home!</p>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------- Footer section ------------------------------>
+    <footer>
+      <div class="footer__container">
+        <div class="wrapper policy-wrapper">
+          <h3 class="footer__text legal-text">Legal</h3>
+          <ul class="footer__list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="wrapper time-wrapper">
+          <h3 class="footer__text">Operating Hours</h3>
+          <ul class="footer__list">
+            <li>Mon - Fri: 8am - 8pm </li>
+            <li>Saturday: 9am - 7pm​ </li>
+            <li>Sunday: 9am - 8pm </li>
+          </ul>
+          <div class="wrapper__links">
+            <h3 class="footer__text">Follow us for cleaning tips</h3>
+            <ul class="footer__list-icons">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrapper contact-wrapper">
+          <h3 class="footer__text">Contact</h3>
+          <ul class="footer__list">
+            <li>The cleanic</li>
+            <li>Central Business District, Abuja, Nigeria 90018</li>
+             <li><a href="tel:234-81-0499-5542" class="call-button">234-81-0499-5542</a></li>
+            <li><a href="mailto:mkcleaning@mysite.com">mkcleaning@mysite.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
